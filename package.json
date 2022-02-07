@@ -1,0 +1,17 @@
+{
+  "name": "thrivecart-webhook-to-shopify",
+  "version": "2.0.0",
+  "dependencies": {
+    "@google-cloud/functions-framework": "~1.9.0",
+    "@google-cloud/storage": "^2.5.0",
+    "@shopify/shopify-api": "^2.0.0",
+    "@slack/webhook": "^6.0.0",
+    "axios": "0.21.4",
+    "dotenv": "^10.0.0"
+  },
+  "scripts": {
+    "start": "functions-framework --target=main"
+  },
+  "author": "Ikechukwu Festus-Ihedioha",
+  "license": "aiiksveryown"
+}
